@@ -1,0 +1,172 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+
+
+  -moz-box-sizing: border-box;
+
+
+  box-sizing: border-box;
+}
+
+
+
+img {
+	max-width: 100%;
+}
+
+
+
+body {
+	background: #737373;
+}
+
+.wrapper {
+	background: #404040;
+	line-height: 1.5em;
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+
+
+h1,
+h2,
+nav,
+footer p, 
+.pictures {
+	text-align: center;
+}
+
+
+h1,
+h2,
+footer p {
+	text-transform: uppercase;
+}
+
+
+
+header {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BNzZhYThmOTAtMzJkNi00MjQ0LWE0ZWItYzRhZWU5Njc3ZmFkXkEyXkFqcGdeQWpnYW1i._V1_.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	 background-size: cover;
+	 -o-background-size: cover;
+	 padding-bottom: 25%;
+}
+
+
+
+nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	font-size: 1.1em;
+	padding: .75em;
+	text-decoration: none;
+}
+
+
+
+nav a:link {
+	color: white;
+}
+
+nav a:visited {
+	color:  #737373;
+}
+
+nav a:hover {
+	color: #737373;
+}
+
+nav a:active {
+	color: #737373;
+}
+
+
+
+
+
+.main-content {
+	margin-top: .65em;
+	background: #d9d9d9;
+}
+
+
+
+.basic-info {
+	background: #737373;
+	padding: .55em;
+}
+
+
+
+footer {
+	padding: .45em;
+}
+
+
+
+footer p {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+ @media only screen and (min-width: 649px) and (max-width: 717px) {
+
+	 
+	.main-content p {
+		text-align: center;
+		margin: auto;
+		width: 39em;
+	}
+}
+
+
+
+@media only screen and (min-width: 718px ) {
+
+	
+	nav a {
+		font-size: 1.4em;
+	}
+	h1 {
+		font-size: 3.5em;
+	}
+	.main-content {
+		text-align: center;
+	}
+	.pictures {
+		display: inline-block;
+		width: 14em;	
+	}
+	footer p {
+		font-size: 1.5em;
+	}
+  
+  
+}
+
+html *
+{
+   font-size: 1em !important;
+   color: #ffffff !important;
+   font-family: Arial !important;
+}
