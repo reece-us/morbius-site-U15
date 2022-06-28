@@ -27,7 +27,9 @@ body {
 	margin: 0 auto;
 }
 
-
+.p {
+	color: black;
+}
 
 h1,
 h2,
@@ -35,6 +37,7 @@ nav,
 footer p, 
 .pictures {
 	text-align: center;
+	color: black;
 }
 
 
@@ -42,6 +45,7 @@ h1,
 h2,
 footer p {
 	text-transform: uppercase;
+	color: black;
 }
 
 
